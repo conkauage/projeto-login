@@ -21,17 +21,18 @@ main {
 
 section#login {
     width: 950px;
-    height: 350px;
+    height: 380px;
     background-image: url(../imagens/build.jpg);
     margin: auto;
     background-position: center right;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.815);
 }
 
 div#formulario {
-    height: 350px;
+    height: 380px;
     width: 50%;
     background-color: white;
     border-radius: 20px 0px 0px 20px;
