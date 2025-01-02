@@ -5,3 +5,167 @@ Paleta de cores
 Verde: #49a09d
 Lilás: #5f2c82
 */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #9593a7, #1B7F7A);
+}
+
+section#login {
+    width: 90vh;
+    height: 350px;
+    background-image: url(../imagens/build.jpg);
+    margin: auto;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+div#formulario {
+    height: 350px;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+}
+
+fieldset {
+    border-style: none;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 2em;
+}
+
+div > p {
+    font-size: 0.9em;
+    padding: 0px 13px;
+    line-height: 1.3em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+p#pemail {
+    background-color: #54535c;
+    margin-left: 14px;
+    margin-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+}
+
+img#imguser {
+    width: 22px;  
+    display: flex;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 6px;
+}
+
+p#psenha {
+    background-color: #54535c;
+    margin-left: 14px;
+    margin-right: 12px;
+    margin-top: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+}
+
+img#imgsenha {
+    width: 22px;  
+    display: flex;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 6px;
+}
+
+input#iemail {
+    width: 86%;
+    margin-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(113, 203, 219);
+    text-indent: 5px;
+    border-radius: 5px; 
+    border-style: hidden;
+}
+
+input#iemail:focus {
+    background-color: white;
+    padding-inline: 2px;
+    padding-block: 8px;
+    border-style: solid;
+    outline: none;
+    border-color: rgb(113, 203, 219);
+    
+}
+
+input#ipass {
+    width: 86%;
+    margin-top: 0px;
+    margin-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(113, 203, 219);
+    text-indent: 5px;
+    border-radius: 5px;
+    border-style: hidden;
+}
+
+input#ipass:focus {
+    background-color: white;
+    padding-inline: 2px;
+    padding-block: 8px;
+    border-style: solid;
+    border-color: rgb(113, 203, 219);
+}
+
+input#enter {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 94%;
+    color: white;
+    background-color: #2091a5;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #2091a5;
+}
+
+input#enter:hover {
+    background-color: #187281;
+}
+
+input#senha {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 94%;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #2091a5;
+    color: #2091a5;
+}
+
+input#senha:hover {
+    background-color: #187281;
+    color: white
+}
