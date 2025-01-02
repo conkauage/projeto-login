@@ -20,7 +20,7 @@ main {
 }
 
 section#login {
-    width: 90vh;
+    width: 950px;
     height: 350px;
     background-image: url(../imagens/build.jpg);
     margin: auto;
@@ -58,7 +58,7 @@ div > p {
 p#pemail {
     background-color: #54535c;
     margin-left: 14px;
-    margin-right: 12px;
+    margin-right: 13px;
     padding-top: 2px;
     padding-bottom: 2px;
     margin-bottom: 1px;
@@ -70,13 +70,13 @@ img#imguser {
     display: flex;
     position: absolute;
     margin-left: 14px;
-    margin-top: 6px;
+    margin-top: 9px;
 }
 
 p#psenha {
     background-color: #54535c;
     margin-left: 14px;
-    margin-right: 12px;
+    margin-right: 13px;
     margin-top: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
@@ -88,14 +88,14 @@ img#imgsenha {
     display: flex;
     position: absolute;
     margin-left: 14px;
-    margin-top: 6px;
+    margin-top: 9px;
 }
 
 input#iemail {
-    width: 86%;
+    width: 89%;
     margin-left: 45px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     background-color: rgb(113, 203, 219);
     text-indent: 5px;
     border-radius: 5px; 
@@ -113,11 +113,11 @@ input#iemail:focus {
 }
 
 input#ipass {
-    width: 86%;
+    width: 89%;
     margin-top: 0px;
     margin-left: 45px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     background-color: rgb(113, 203, 219);
     text-indent: 5px;
     border-radius: 5px;
@@ -129,13 +129,14 @@ input#ipass:focus {
     padding-inline: 2px;
     padding-block: 8px;
     border-style: solid;
+    outline: none;
     border-color: rgb(113, 203, 219);
 }
 
 input#enter {
     margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     width: 94%;
     color: white;
     background-color: #2091a5;
@@ -150,8 +151,8 @@ input#enter:hover {
 
 input#senha {
     margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     width: 94%;
     background-color: white;
     border-radius: 5px;
