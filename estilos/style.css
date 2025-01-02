@@ -106,7 +106,7 @@ input#iemail {
 input#iemail:focus {
     background-color: white;
     padding-inline: 2px;
-    padding-block: 8px;
+    padding-block: 11px;
     border-style: solid;
     outline: none;
     border-color: rgb(113, 203, 219);
@@ -128,7 +128,7 @@ input#ipass {
 input#ipass:focus {
     background-color: white;
     padding-inline: 2px;
-    padding-block: 8px;
+    padding-block: 11px;
     border-style: solid;
     outline: none;
     border-color: rgb(113, 203, 219);
